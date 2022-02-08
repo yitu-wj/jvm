@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * VM Args: -Xmx6M
  */
-public class RuntimeConstantPoolOOM {
+public class RuntimeConstantPoolOOM_1 {
     public static void main(String[] args) {
         // 使用Set保持者常量池引用，避免Full GC回收常量池行为
         Set<String> set = new HashSet<>();
